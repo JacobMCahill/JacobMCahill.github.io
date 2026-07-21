@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jacob Cahill — Full-Stack Web Developer</title>
+<meta name="description" content="Jacob Cahill is a full-stack web developer and designer. Browse selected projects and get in touch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+
+<nav class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <div class="nav-prompt">
+      <span class="user">Jacob Cahill</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">home</a></li>
+      <li><a href="#work">work</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact me</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">[ ]</button>
+  </div>
+</nav>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <div class="status-pill"><span class="status-dot"></span> available for remote &amp; full-time work</div>
+        <h1>Jacob Cahill<br><span class="accent-text"></span></h1>
+        <p class="hero-bio">
+          Web developer and designer with an eye for detail and a toolkit
+           that includes design, code, and AI.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View my work</a>
+          <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+        </div>
+        <div class="tag-row">
+          <span class="chip">Html</span>
+          <span class="chip">Css</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">PHP</span>
+          <span class="chip">React</span>
+          <span class="chip">Node.js</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="photo-frame">
+          <div class="photo-frame-inner">
+            <img src="assets/jc1.jpg" alt="Jacob Cahill">
+          </div>
+        </div>
+        <div class="code-card">
+          <div class="code-card-head">
+            <span class="code-dot red"></span><span class="code-dot yellow"></span><span class="code-dot green"></span>
+          </div>
+          <pre>
+  <span class="key">name</span>: <span class="str">Jacob Cahill</span>
+  <span class="key">role</span>: <span class="str">Web Specialist/Designer</span>
+  <span class="key">focus</span>: <span class="str">design + code</span>
+  <span class="key">status</span>: <span id="typed-status"></span>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">// selected work</div>
+        <h2 class="section-title">Things I've built</h2>
+        <p>A mix of school assignments, and sites I built purely because
+          I had an idea I couldn't leave alone. Each one below has a small gallery — hover or click a
+          thumbnail on desktop, or swipe the main image on mobile.</p>
+      </div>
+
+      <div class="project-list">
+
+         <article class="project reveal">
+          <div class="project-info">
+            <span class="project-hash">commit <span>#a3f9c2e</span> — school project</span>
+            <h3>Cahills Rentals</h3>
+            <p class="desc">First fully developed project. Most basic implementation of web development concepts.</p>
+            <div class="project-tags">
+              <span class="chip">HTML/CSS</span>
+            </div>
+           
+          </div>
+          <div class="project-gallery" data-gallery>
+            <div class="gallery-main">
+              <img data-main src="assets/Cahills Rentals/main.jpg" alt="Project One — homepage">
+            </div>
+            <div class="gallery-thumbs">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills Rentals/home.jpg">
+      <img src="assets/Cahills Rentals/home.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills Rentals/collection.jpg">
+      <img src="assets/Cahills Rentals/collection.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills Rentals/ai.jpg">
+      <img src="assets/Cahills Rentals/ai.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills Rentals/contact.jpg">
+      <img src="assets/Cahills Rentals/contact.jpg" alt="">
+            </div>
+          </div>
+        </article>
+        
+
+        <article class="project reveal">
+          <div class="project-info">
+            <span class="project-hash">commit <span>#a3f9c2e</span> — school project</span>
+            <h3>Cahills Country Club</h3>
+            <p class="desc">A redesign of My Rentals project. I completely redid the website for a country club focusing on improving user experience and modernizing the layout.</p>
+            <div class="project-tags">
+              <span class="chip">HTML/CSS</span><span class="chip">React/JavaScript</span>
+            </div>
+           
+          </div>
+          <div class="project-gallery" data-gallery>
+            <div class="gallery-main">
+              <img data-main src="assets/Cahills Country club photos/main.jpg" alt="Project One — homepage">
+            </div>
+            <div class="gallery-thumbs">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills Country club photos/home.jpg">
+      <img src="assets/Cahills Country club photos/home.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills Country club photos/courses.jpg">
+      <img src="assets/Cahills Country club photos/courses.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills Country club photos/activities.jpg">
+      <img src="assets/Cahills Country club photos/activities.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills Country club photos/memberships.jpg">
+      <img src="assets/Cahills Country club photos/memberships.jpg" alt="">
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-info">
+            <span class="project-hash">commit <span>#a3f9c2e</span> — Personal Project</span>
+            <h3>Cahills BBQ</h3>
+            <p class="desc">A website I built for my family's BBQ foodtruck. In this project I focused mostly on graphic design and user experience.</p>
+            <div class="project-tags">
+              <span class="chip">HTML/CSS</span><span class="chip">React/JavaScript</span><span class="chip">Adobe Photoshop</span><span class="chip">AI Dev Tools</span>
+            </div>
+           
+          </div>
+          <div class="project-gallery" data-gallery>
+            <div class="gallery-main">
+              <img data-main src="assets/Cahills BBQ/main.jpg" alt="Project One — homepage">
+            </div>
+            <div class="gallery-thumbs">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills BBQ/home.jpg">
+      <img src="assets/Cahills BBQ/home.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills BBQ/menu.jpg">
+      <img src="assets/Cahills BBQ/menu.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills BBQ/catering.jpg">
+      <img src="assets/Cahills BBQ/catering.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Cahills BBQ/about.jpg">
+      <img src="assets/Cahills BBQ/about.jpg" alt="">
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-info">
+            <span class="project-hash">commit <span>#a3f9c2e</span> — Personal Project</span>
+            <h3>Texas Short Track Hub</h3>
+            <p class="desc">A website I built for fun to display information about short track racing in Texas. The intention was to work on my experience with REST APIs.</p>
+            <div class="project-tags">
+              <span class="chip">HTML/CSS</span><span class="chip">React/JavaScript</span><span class="chip">REST APIs</span><span class="chip">AI Dev Tools</span>
+            </div>
+           
+          </div>
+          <div class="project-gallery" data-gallery>
+            <div class="gallery-main">
+              <img data-main src="assets/Texas Short Track Hub/main.jpg" alt="Project Four — homepage">
+            </div>
+            <div class="gallery-thumbs">
+              <button class="active" data-shot="Homepage" data-src="assets/Texas Short Track Hub/home.jpg">
+      <img src="assets/Texas Short Track Hub/home.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Texas Short Track Hub/api.jpg">
+      <img src="assets/Texas Short Track Hub/api.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Texas Short Track Hub/pits.jpg">
+      <img src="assets/Texas Short Track Hub/pits.jpg" alt="">
+              <button class="active" data-shot="Homepage" data-src="assets/Texas Short Track Hub/foot.jpg">
+      <img src="assets/Texas Short Track Hub/foot.jpg" alt="">
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">// stack</div>
+        <h2 class="section-title">What I work with</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <h4>frontend/</h4>
+          <ul>
+            <li>React</li><li>JavaScript</li><li>Tailwind CSS</li><li>HTML/CSS</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>backend/</h4>
+          <ul>
+            <li>Node.js</li><li>PHP</li><li>MySQL</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>tools/</h4>
+          <ul>
+            <li>Github Copilot</li><li>Cursor</li><li>REST APIs</li><li>Claude Code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about">
+    <div class="container about-grid">
+      <div class="reveal">
+        <div class="eyebrow">// about</div>
+        <h2 class="section-title">A bit about me</h2>
+        <p>I'm a web specialist/developer and designer with a habit of turning small ideas into full projects.
+           I graduated in December 2025 with an associate degree in Web Development and I'm now working toward
+            a bachelor's in computer science, building on that foundation as I go. I like the entire process 
+            from sketching layouts, arguing with myself over a color palette, designing logos and graphics, then
+             writing the code that actually puts everything together. </p>
+      </div>
+      <div class="process-list reveal">
+        <div class="process-item">
+          <span class="idx mono"></span>
+          <div><h4>Plan &amp; design first</h4><p>basic photoshop layout designs just to get a visual representation of my ideas.</p></div>
+        </div>
+        <div class="process-item">
+          <span class="idx mono"></span>
+          <div><h4>Build it clean</h4><p>Clean, organized code that's easy to maintain and extend.</p></div>
+        </div>
+        <div class="process-item">
+          <span class="idx mono"></span>
+          <div><h4>Test across devices</h4><p>I test everything across different devices to ensure a consistent user experience.</p></div>
+        </div>
+        <div class="process-item">
+          <span class="idx mono"></span>
+          <div><h4>Finalize</h4><p> Clean up any minor errors and ensure everything is working as expected.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-cta">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2>Have a project in mind?</h2>
+        <p>I'm currently open to remote work and full-time roles. Let's talk about it.</p>
+        <a href="contact.html" class="btn btn-primary">Get in touch</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© 2026 Jacob Cahill</span>
+    <div class="footer-links">
+      <a href="https://github.com/JacobCahill-Design" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/jacob-cahill-1629b1334" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:Cahilljacob17@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Jacob Cahill</title>
+<meta name="description" content="Get in touch with Jacob Cahill about a project, freelance work, or full-time opportunities.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+
+<nav class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <div class="nav-prompt">
+      <span class="user">Jacob Cahill</span><span class="path">//contact</span><span class="caret">&nbsp;</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html#home">home</a></li>
+      <li><a href="index.html#work">work</a></li>
+      <li><a href="index.html#skills">skills</a></li>
+      <li><a href="index.html#about">about</a></li>
+      <li><a href="contact.html" class="nav-cta active">Contact me</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">[ ]</button>
+  </div>
+</nav>
+
+<main>
+  <section class="contact-hero">
+    <div class="container">
+      <div class="eyebrow reveal">// contact</div>
+      <h1 class="reveal">Let's build something.</h1>
+      <p class="reveal">Have a project, a job opening, or just want to talk shop? Fill out the
+        form below or reach out directly — I usually reply within a day or two.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container contact-grid">
+
+      <form class="reveal" id="contactForm" action="https://formspree.io/f/mbdndlzq"
+  method="POST">
+        <div class="field" id="field-name">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name">
+          <div class="error-msg" id="error-name"></div>
+        </div>
+
+        <div class="field" id="field-email">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" placeholder="you@email.com">
+          <div class="error-msg" id="error-email"></div>
+        </div>
+
+        <div class="field" id="field-type">
+          <label for="type">What are you looking for?</label>
+          <select id="type" name="type">
+            <option value="">Select one</option>
+            <option value="freelance">Freelance project</option>
+            <option value="fulltime">Full-time opportunity</option>
+            <option value="collab">Collaboration</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+
+        <div class="field" id="field-message">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me a little about what you have in mind..."></textarea>
+          <div class="error-msg" id="error-message"></div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="submitBtn">$ send_message</button>
+
+        <div class="form-status" id="formStatus"></div>
+      </form>
+
+      <aside class="contact-card reveal">
+        <div class="code-card-head">
+          <span class="code-dot red"></span><span class="code-dot yellow"></span><span class="code-dot green"></span>
+        </div>
+        <dl>
+          <div>
+            <dt>email</dt>
+            <dd><a href="mailto:Cahilljacob17@gmail.com">Cahilljacob17@gmail.com</a></dd>
+          </div>
+          <div class="divider"></div>
+          <div>
+            <dt>github</dt>
+            <dd><a href="https://github.com/JacobCahill-Design" target="_blank" rel="noopener">github.com/jacobcahill</a></dd>
+          </div>
+          <div class="divider"></div>
+          <div>
+            <dt>linkedin</dt>
+            <dd><a href="https://www.linkedin.com/in/jacob-cahill-1629b1334" target="_blank" rel="noopener">www.linkedin.com/in/jacob-cahill</a></dd>
+          </div>
+          <div class="divider"></div>
+          <div>
+            <dt>based in</dt>
+            <dd>Available for remote work</dd>
+          </div>
+        </dl>
+      </aside>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© 2026 Jacob Cahill</span>
+    <div class="footer-links">
+      <a href="https://github.com/JacobCahill-Design" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/jacob-cahill-1629b1334" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:Cahilljacob17@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
